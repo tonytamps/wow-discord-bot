@@ -50,7 +50,17 @@ You can invite the bot to your server by going here [https://discordapp.com/oaut
 
 ## Self-hosting
 
-Or you can fork it, create your own API keys and host it for free like I am by...
+Or you can fork it, create your own API keys and host it for free like I am with Now.sh
+
+* Create a [Now.sh account](https://zeit.co/now)
+* Create a [Battle.net API Key](https://dev.battle.net/apps/mykeys)
+    * You need the "Game API: Basic Plan Key"
+* Create a [Discord App](https://discordapp.com/developers/applications/me)
+    * You need the "App Bot User Token"
+* `npm install -g now` 
+* `now secrets add discord-api-key <discord-token-from-before>`
+* `now secrets add bnet-api-key <bnet-api-key-from-before>`
+* `now` (inside the project directory)
 
 
 ## Command Reference

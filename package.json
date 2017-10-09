@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "deploy": "now rm wow-discord-bot -y && now --public",
+    "deploy": "now rm wow-discord-bot -y && now --public && now scale (now ls | grep -io 'wow-discord-bot-.*\.now\.sh' | head -1) 1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tony T",

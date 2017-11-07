@@ -81,6 +81,8 @@ Or you can fork it, create your own API keys and host it for free like I am with
     * Lists the talents for the provided character name, optional realm and region
 * `?progression` or `?prog <character> [realm=saurfang] [region=us]` 
     * Shows the raid progression for the provided character name, optional realm and region
+    
+**Note:** realm defaults to saurfang and region defaults to us.
 
 ## License
 

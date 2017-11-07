@@ -10,6 +10,10 @@ You type:
 ```
 ?gear redcat
 ```
+or
+```
+?gear redcat saurfang us
+```
 
 Bot says:
 ```

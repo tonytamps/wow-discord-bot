@@ -42,7 +42,9 @@ All the other WoW Discord bots weren't suitable for the guild I was in at the ti
 
 ## Invite
 
-You can invite the bot to your server by going here [https://discordapp.com/oauth2/authorize?&client_id=278336355057270784&scope=bot&permissions=0](https://discordapp.com/oauth2/authorize?&client_id=278336355057270784&scope=bot&permissions=0)
+No longer running.
+
+~~You can invite the bot to your server by going here [https://discordapp.com/oauth2/authorize?&client_id=278336355057270784&scope=bot&permissions=0](https://discordapp.com/oauth2/authorize?&client_id=278336355057270784&scope=bot&permissions=0)~~
 
 > **Note:** You can only add a bot account to a server that you have Manage Server permissions on.
 
@@ -57,7 +59,7 @@ Or you can fork it, create your own API keys and host it for free like I am with
     * You need the "Game API: Basic Plan Key"
 * Create a [Discord App](https://discordapp.com/developers/applications/me)
     * You need the "App Bot User Token"
-* `npm install -g now` 
+* `npm install -g now`
 * `now secrets add discord-api-key <discord-token-from-before>`
 * `now secrets add bnet-api-key <bnet-api-key-from-before>`
 * `now` (inside the project directory)
@@ -65,17 +67,17 @@ Or you can fork it, create your own API keys and host it for free like I am with
 
 ## Command Reference
 
-* `?help` or `?commands` 
+* `?help` or `?commands`
     * Shows the command reference message
-* `?loot` 
+* `?loot`
     * Lists the rewards for doing mythic dungeons
-* `?affixes` or `?affix` 
+* `?affixes` or `?affix`
     * Lists the weekly mythic dungeon affixes
-* `?gear <character> [realm=saurfang] [region=us]` 
+* `?gear <character> [realm=saurfang] [region=us]`
     * Lists the gear for the provided character name, optional realm and region
-* `?talents` or `?tals <character> [realm=saurfang] [region=us]` 
+* `?talents` or `?tals <character> [realm=saurfang] [region=us]`
     * Lists the talents for the provided character name, optional realm and region
-* `?progression` or `?prog <character> [realm=saurfang] [region=us]` 
+* `?progression` or `?prog <character> [realm=saurfang] [region=us]`
     * Shows the raid progression for the provided character name, optional realm and region
 
 ## License

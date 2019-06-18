@@ -3,6 +3,10 @@
 
 A Discord bot that can be used to query web services (WowHead, Blizzard, Raider.io, etc...) in chat.
 
+**NOTE:** Since the Battle.Net API and Now deployment platform have both changed recently I am not sure how functional this is anymore.
+
+I suggest using this at most as an outdated example and not as working software.
+
 
 ## Example
 
